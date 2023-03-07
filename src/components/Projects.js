@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 export default class Navbar extends Component {
     render(){
         return(
-            <div className='container-fluid' style={{backgroundColor:'cadetblue'}}>
+            <div className='container-fluid' style={{background: 'linear-gradient(to top,#a9a9a9,#9f9f9f,#949494,#8a8a8a,#808080)'}}>
                 <div className='row' style={{justifyContent: 'space-evenly'}}>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="https://www.nasa.gov/sites/default/files/s132e012209_sm.jpg" className='fluid' style={{height:'15rem'}} />

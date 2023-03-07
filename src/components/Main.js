@@ -5,7 +5,7 @@ export default class Main extends Component {
     render(){
         return(
             <div>
-                <header className="container-fluid bg-image mask" style={{height: '100vh', width:'100vw', background: 'linear-gradient(to right, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5))'}}>
+                <header className="container-fluid bg-image mask" style={{height: '100vh', width:'100vw', background: 'linear-gradient(to top,#d3d3d3,#c3d2dd,#b2d1e7,#9ecff0,#87cefa)'}}>
                     <div className="container d-flex h-100 align-items-center">
                         <div className="mx-auto text-center justify-space-between">
                             <h1 className="mx-auto text-white my-0 text-uppercase">Fullstack Web Development and Cloud Engineering</h1>

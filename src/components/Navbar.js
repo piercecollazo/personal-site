@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 export default class Navbar extends Component {
     render(){
         return(
-            <nav className="navbar navbar-light bg-light ">
+            <nav className="navbar navbar-light bg-dark ">
                 <span className="navbar-brand mb-0 h1">Navbar</span>
                 <div className="mx-auto text-center justify-space-between">
                 <a className="btn btn-primary js-scroll-trigger" href="#about">Resume</a>
