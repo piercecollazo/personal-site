@@ -5,17 +5,33 @@ import Card from 'react-bootstrap/Card';
 export default class Navbar extends Component {
     render(){
         return(
-            <div className='container-fluid'>
-                <div className='row align-items-center justify-content-center'>
+            <div className='container-fluid' style={{backgroundColor:'cadetblue'}}>
+                <div className='row' style={{justifyContent: 'space-evenly'}}>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src="https://www.nasa.gov/sites/default/files/s132e012209_sm.jpg" className='fluid' style={{height:'15rem'}} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Space Page</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            A static web page project showing off API usage to stay up to date with the crews and
+                            position of the International Space Station!
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <div className='row align-items-center justify-content-center'>
+                        <Button variant="primary">Visit Project</Button>
+                        <Button variant="primary">Github</Button>
+                        </div>
+                    </Card.Body>
+                </Card>
+
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="https://www.nps.gov/inde/learn/historyculture/images/firstbankexterior960.jpg" className='fluid' style={{height:'15rem'}} />
+                    <Card.Body>
+                        <Card.Title>Bank Page</Card.Title>
+                        <Card.Text>
+                            A fullstack project showing off a mock up of a bank accounting website, inspired by Chase bank's
+                            account pages!
+                        </Card.Text>
+                        <Button variant="primary">Visit Project</Button>
+                        <Button variant="primary">Github</Button>
                     </Card.Body>
                 </Card>
                 </div>
