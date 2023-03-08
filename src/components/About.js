@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import * as SIcon from 'react-icons/si'
 
-export default class Navbar extends Component {
+export default class About extends Component {
     render(){
         return(
             <div className='container-fluid' style={{background: 'linear-gradient(to top,#808080,#949494,#a9a9a9,#bebebe,#d3d3d3)'}}>

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-export default class Navbar extends Component {
+export default class Projects extends Component {
     render(){
         return(
             <div className='container-fluid' style={{background: 'linear-gradient(to top,#a9a9a9,#9f9f9f,#949494,#8a8a8a,#808080)'}}>
