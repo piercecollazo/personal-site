@@ -22,10 +22,11 @@
     "react-scripts": "^3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:dev": "nodemon server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
   }
 }

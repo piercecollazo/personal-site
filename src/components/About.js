@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import * as Icon from 'react-bootstrap-icons';
 import * as SIcon from 'react-icons/si'
 
 export default class Navbar extends Component {

@@ -21,6 +21,7 @@ export default function App() {
             <MDBBtn color='primary' block className='my-4'>
                 Send
             </MDBBtn>
+            Or reach me at 'acollazomail@gmail.com'!
         </form>
         </Card>
         </div>
