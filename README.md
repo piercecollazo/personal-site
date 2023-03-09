@@ -1,1 +1,1 @@
-My portfolio website, done a React Bootstrap stack(With a little mdb thrown in!)
+My portfolio website, done in a React Bootstrap stack(With a little mdb thrown in!)
