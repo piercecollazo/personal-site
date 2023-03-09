@@ -29,9 +29,9 @@ export default class Projects extends Component {
                         <Card.Title>Bank Page</Card.Title>
                         <Card.Text>
                             A fullstack project showing off a mock up of a bank accounting website, inspired by Chase bank's
-                            account pages!
+                            account pages! *3/9/2023* Temporarily down while refactoring for updated dependances
                         </Card.Text>
-                        <Button variant="dark" href='https://piercecollazo.github.io/bank-page/' target={'_blank'}>Visit Project</Button>
+                        <Button variant="dark" disabled={true} href='https://piercecollazo.github.io/bank-page/' target={'_blank'}>Visit Project</Button>
                         <Button variant="dark" href='https://github.com/piercecollazo/bank-page' target={'_blank'}>Github</Button>
                     </Card.Body>
                 </Card>
