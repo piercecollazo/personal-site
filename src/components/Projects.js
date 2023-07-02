@@ -23,7 +23,7 @@ export default class Projects extends Component {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }}>
+                {/* <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="https://www.nps.gov/inde/learn/historyculture/images/firstbankexterior960.jpg" className='fluid' style={{height:'15rem'}} />
                     <Card.Body>
                         <Card.Title>Bank Page</Card.Title>
@@ -34,7 +34,7 @@ export default class Projects extends Component {
                         <Button variant="dark" disabled={true} href='https://piercecollazo.github.io/bank-page/' target={'_blank'}>Visit Project</Button>
                         <Button variant="dark" href='https://github.com/piercecollazo/bank-page' target={'_blank'}>Github</Button>
                     </Card.Body>
-                </Card>
+                </Card> */}
                 </div>
                 </div>
             </div>
