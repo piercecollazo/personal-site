@@ -9,7 +9,7 @@ export default class Projects extends Component {
                 <div className='container' style={{background: 'linear-gradient(to right bottom,#FF6347,#ff005f,#f7008a,#c500c3,#0000FF)'}}>
                 <div className='row' style={{justifyContent: 'space-evenly', paddingTop:'2rem', paddingBottom:'2rem'}}>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="https://www.nasa.gov/sites/default/files/s132e012209_sm.jpg" className='fluid' style={{height:'15rem'}} />
+                    <Card.Img variant="top" src="https://i.imgur.com/NR37f9T.jpg" className='fluid' style={{height:'15rem'}} />
                     <Card.Body>
                         <Card.Title>Space Page</Card.Title>
                         <Card.Text>

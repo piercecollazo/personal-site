@@ -6,7 +6,7 @@ export default class About extends Component {
         return(
             <div className='container-fluid' style={{background: 'linear-gradient(to top,#808080,#949494,#a9a9a9,#bebebe,#d3d3d3)', height:'100%'}}>
                     <div className='container' style={{background: 'linear-gradient(to right bottom,#00ffff,#00dbff,#00afff,#0078ff,#9400d3)', paddingTop:'3rem', paddingBottom:'3rem'}}>
-                        <img src='https://media.licdn.com/dms/image/C4D03AQHaMEjAbsrWoQ/profile-displayphoto-shrink_800_800/0/1515785247498?e=1693440000&v=beta&t=IjITlQVG-ZEjDq4WRoJ6CYFGcQlccrcmlCLsXMr1RTY' className='img-fluid img-thumbnail shadow-4' style={{maxHeight:'20rem'}} alt=''></img>
+                        <img src='https://i.imgur.com/SrG3htC.jpg' className='img-fluid img-thumbnail shadow-4' style={{maxHeight:'20rem'}} alt=''></img>
                     <div className='col'>
                         <div className='container' style={{backgroundColor:'rgb(255,255,255,0.6)', borderRadius:'5px', paddingBottom:'2px', marginBottom:'2px'}}>
                         <h1>Who I am</h1>
